@@ -38,4 +38,4 @@ npm start
 ## Walkthrough Video
 https://watch.screencastify.com/v/V4gM4vHcdh5Z8CfJ6wMM
 
-![walkthrough]()
+![walkthrough](https://github.com/jessicamcg/e-commerce-backend/blob/main/assets/e-commerce-backend%20walkthrough.gif)
