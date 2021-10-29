@@ -4,9 +4,7 @@
 
 This is the back end for a e-commerce website.
 
-The user must add the database name and their MySQL username and password to an environment variable.
-
-Then they are able to connect to that database using Sequelize.
+The user must add the database name and their MySQL username and password to an environment variable. Then they are able to connect to that database using Sequelize.
 
 They can enter schema and seed commands and the database will be created and seeded with test data.
 
@@ -17,8 +15,18 @@ The API GET routes in Insomnia Core for categories, products, or tags, the data 
 The API POST, PUT, and DELETE routes in Insomnia Core will create, update and delete data in the database.
 
 ## Installation
+Create database by entering these commands in mysql:
+
+*Note: drops database if exists (ecommerce_db)
+```mysql
+source schema.sql
+```
+
+Enter these commands to start the application:
 ```bash
 npm i
+npm run seed
+npm start
 ```
 
 [MySQL2](https://www.npmjs.com/package/mysql)
@@ -29,3 +37,5 @@ npm i
 
 ## Walkthrough Video
 https://watch.screencastify.com/v/V4gM4vHcdh5Z8CfJ6wMM
+
+![walkthrough]()
