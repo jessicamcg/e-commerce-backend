@@ -28,3 +28,4 @@ npm i
 [dotenv](https://www.npmjs.com/package/dotenv) 
 
 ## Walkthrough Video
+https://watch.screencastify.com/v/V4gM4vHcdh5Z8CfJ6wMM
